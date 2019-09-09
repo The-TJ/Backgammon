@@ -2,10 +2,10 @@ public class Board implements BoardAPI {
     // Board hold the details for the current board positions, performs moves and returns the list of legal moves
 
     private static final int[] RESET = {0,0,0,0,0,0,5,0,3,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,2,0};
-    private static final int[][] CHEAT = {
+    /*private static final int[][] CHEAT = {
               {13,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},   // Bear in & Bear off test
               {13,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-            };
+            };*/
 
 
     public static final int BAR = 25;           // index of the BAR
